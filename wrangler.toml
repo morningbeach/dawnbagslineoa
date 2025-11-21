@@ -9,11 +9,11 @@ compatibility_date = "2024-06-20"
 [[d1_databases]]
 binding = "LINEOA_DB"
 database_name = "lineoa_db"
-database_id = "REPLACE_WITH_YOUR_D1_ID"
+database_id = "18e742b2-fead-454a-b468-d81051b7f037"
 
 [[kv_namespaces]]
 binding = "AI_CONFIG"
-id = "REPLACE_WITH_YOUR_KV_ID"
+id = "f090090bea4f4d11a4f07d9793df41d2"
 
 [[r2_buckets]]
 binding = "R2_BUCKET"

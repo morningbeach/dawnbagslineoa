@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "middleware": {},
+  "functions": {
+    "/api/chat/[userId]/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/864.js",
+        "server/app/api/chat/[userId]/route.js"
+      ],
+      "name": "app/api/chat/[userId]/route",
+      "page": "/api/chat/[userId]/route",
+      "matchers": [
+        {
+          "regexp": "^/api/chat/(?<userId>[^/]+?)$",
+          "originalSource": "/api/chat/[userId]"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "environments": {
+        "previewModeId": "4d55e849702684291664b2dd9a3a3c70",
+        "previewModeSigningKey": "1dac9ca781c0120efad23d8ddfac93f728a603762e439027092e986750f39df4",
+        "previewModeEncryptionKey": "3ee14bf216c94e7162b3743d31404ca04d832648aa5832d7be9a149ca7da9df1"
+      }
+    },
+    "/api/chat/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/864.js",
+        "server/app/api/chat/route.js"
+      ],
+      "name": "app/api/chat/route",
+      "page": "/api/chat/route",
+      "matchers": [
+        {
+          "regexp": "^/api/chat$",
+          "originalSource": "/api/chat"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "environments": {
+        "previewModeId": "4d55e849702684291664b2dd9a3a3c70",
+        "previewModeSigningKey": "1dac9ca781c0120efad23d8ddfac93f728a603762e439027092e986750f39df4",
+        "previewModeEncryptionKey": "3ee14bf216c94e7162b3743d31404ca04d832648aa5832d7be9a149ca7da9df1"
+      }
+    },
+    "/api/chat/[userId]/sammy/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/864.js",
+        "server/app/api/chat/[userId]/sammy/route.js"
+      ],
+      "name": "app/api/chat/[userId]/sammy/route",
+      "page": "/api/chat/[userId]/sammy/route",
+      "matchers": [
+        {
+          "regexp": "^/api/chat/(?<userId>[^/]+?)/sammy$",
+          "originalSource": "/api/chat/[userId]/sammy"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "environments": {
+        "previewModeId": "4d55e849702684291664b2dd9a3a3c70",
+        "previewModeSigningKey": "1dac9ca781c0120efad23d8ddfac93f728a603762e439027092e986750f39df4",
+        "previewModeEncryptionKey": "3ee14bf216c94e7162b3743d31404ca04d832648aa5832d7be9a149ca7da9df1"
+      }
+    }
+  },
+  "sortedMiddleware": []
+}

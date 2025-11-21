@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/chats/route": "app/api/chats/route.js",
+  "/chats/[id]/page": "app/chats/[id]/page.js",
+  "/chats/page": "app/chats/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/page": "app/page.js",
+  "/quotes/page": "app/quotes/page.js",
+  "/settings/ai/page": "app/settings/ai/page.js",
+  "/settings/company/page": "app/settings/company/page.js",
+  "/api/chat/[userId]/route": "app/api/chat/[userId]/route.js",
+  "/api/chat/route": "app/api/chat/route.js",
+  "/api/chat/[userId]/sammy/route": "app/api/chat/[userId]/sammy/route.js"
+}

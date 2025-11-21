@@ -1,0 +1,8 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[406],{67:e=>{"use strict";e.exports=require("node:async_hooks")},195:e=>{"use strict";e.exports=require("node:buffer")},152:(e,t,a)=>{"use strict";a.r(t),a.d(t,{ComponentMod:()=>g,default:()=>m});var r={};a.r(r),a.d(r,{GET:()=>c,runtime:()=>d});var s={};a.r(s),a.d(s,{originalPathname:()=>f,patchFetch:()=>I,requestAsyncStorage:()=>h,routeModule:()=>l,serverHooks:()=>_,staticGenerationAsyncStorage:()=>E});var n=a(663),u=a(514),i=a(860),o=a(113),p=a(808);let d="edge";async function c(e,{params:t}){let{env:a}=(0,p.getRequestContext)(),r=a.LINEOA_DB,s=t.userId,n=`
+    SELECT id, line_user_id, direction, message, timestamp
+    FROM chat_messages
+    WHERE line_user_id = ?1
+    ORDER BY timestamp ASC
+    LIMIT 200;
+  `;return new Response(JSON.stringify((await r.prepare(n).bind(s).all()).results??[]),{status:200,headers:{"Content-Type":"application/json"}})}let l=new u.AppRouteRouteModule({definition:{kind:i.x.APP_ROUTE,page:"/api/chat/[userId]/route",pathname:"/api/chat/[userId]",filename:"route",bundlePath:"app/api/chat/[userId]/route"},resolvedPagePath:"/workspaces/dawnbagslineoa/app/api/chat/[userId]/route.tsx",nextConfigOutput:"",userland:r}),{requestAsyncStorage:h,staticGenerationAsyncStorage:E,serverHooks:_}=l,f="/api/chat/[userId]/route";function I(){return(0,o.XH)({serverHooks:_,staticGenerationAsyncStorage:E})}let g=s,m=n.a.wrap(l)}},e=>{var t=t=>e(e.s=t);e.O(0,[864],()=>t(152));var a=e.O();(_ENTRIES="undefined"==typeof _ENTRIES?{}:_ENTRIES)["middleware_app/api/chat/[userId]/route"]=a}]);
+//# sourceMappingURL=route.js.map
