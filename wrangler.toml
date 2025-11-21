@@ -1,0 +1,20 @@
+name = "lineoa-ai-admin"
+main = "workers/webhook/index.js"
+compatibility_date = "2024-06-20"
+
+[vars]
+# SUPABASE_URL = ""
+# SUPABASE_ANON_KEY = ""
+
+[[d1_databases]]
+binding = "LINEOA_DB"
+database_name = "lineoa_db"
+database_id = "REPLACE_WITH_YOUR_D1_ID"
+
+[[kv_namespaces]]
+binding = "AI_CONFIG"
+id = "REPLACE_WITH_YOUR_KV_ID"
+
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "dawnbags-lineoa"
